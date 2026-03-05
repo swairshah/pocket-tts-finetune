@@ -1,0 +1,50 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local tool state
+.pi/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Generated media/artifacts
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Generated reports/demos (keep if you want by removing these)
+prompt_examples.html
+voice_demo.html
+
+# Local dataset/transliteration outputs
+translit_*/
+
+# Temporary files
+*.tmp
+*.bak
